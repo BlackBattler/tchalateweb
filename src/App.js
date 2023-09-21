@@ -4,13 +4,6 @@ import Contact from "./pages/Contact";
 
 function App() {
   return (
-<<<<<<< HEAD
-    <div className="App">
-      <header className="App-header">
-        <p>TCHALATE</p>
-      </header>
-    </div>
-=======
     <>
       <BrowserRouter>
         <Routes>
@@ -19,7 +12,6 @@ function App() {
         </Routes>
       </BrowserRouter>
     </>
->>>>>>> e8229398090f9fc98ae9bb3e4629860eb0244627
   );
 }
 
