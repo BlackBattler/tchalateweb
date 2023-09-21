@@ -1,0 +1,16 @@
+@import "./main.scss";
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 153, 255, 0.716);
+
+    .logo{
+        width: 30%;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+    }
+  }
