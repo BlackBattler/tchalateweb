@@ -1,4 +1,4 @@
-import '../styles/homeMain.scss';
+import "../styles/homeMain.scss";
 
 // Header function
 export default function HomeMain() {

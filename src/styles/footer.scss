@@ -1,11 +1,11 @@
-@import './main.scss';
+@import "./main.scss";
 
 .footer {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  background-color: rgba(21, 255, 0, 0.716);
-  border-radius: 10px;
+  background-color: #d0b878;
+  border-radius: 20px;
   height: 160px;
 }

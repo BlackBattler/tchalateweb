@@ -1,9 +1,12 @@
-@import './main.scss';
+@import "./main.scss";
 
 .homeMain {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: #d0b878;
+  border-radius: 20px;
+  margin: 20px 0px;
   min-height: 100vh;
 }
