@@ -5,8 +5,7 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  background-color: #d0b878;
-  border-radius: 20px;
+  background-color: #b34444;
   height: 160px;
   padding: 0px 10px;
 }
@@ -27,11 +26,6 @@
     gap: 50px;
     color: $color-primary;
     font-size: 24px;
-    &_page {
-      &-active {
-        text-decoration: underline solid $color-primary;
-      }
-    }
 
     li {
       &:hover {
