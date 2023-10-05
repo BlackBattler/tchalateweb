@@ -1,17 +1,20 @@
 @import "./main.scss";
 
 .header {
+  position: fixed;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  background-color: #b34444;
-  height: 160px;
-  padding: 0px 10px;
+  background-color: #f3fdff;
+  height: 120px;
+  width: 100%;
+  padding: 0px 50px;
+  z-index: 1001;
 }
 
 .logo {
-  width: 220px;
+  width: 150px;
   border-radius: 50%;
   display: flex;
   justify-content: flex-start;
