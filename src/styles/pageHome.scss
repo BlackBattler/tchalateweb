@@ -1,0 +1,46 @@
+@import "./main.scss";
+
+// Common
+.sectionDisplay {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 20px 0px;
+}
+h1 {
+  font-size: 28px;
+  padding-bottom: 20px;
+}
+h2 {
+  font-size: 26px;
+  padding-bottom: 20px;
+}
+.text {
+  font-size: 20px;
+  padding: 0 100px 30px;
+}
+
+// Section Introduction
+.homeMain {
+  background-color: #ffffff;
+  min-height: 300px;
+}
+
+// Section Expertise
+.homeExpertise {
+  background-color: #effffe;
+  min-height: 400px;
+}
+
+// Section Partenaire
+.homePartenaire {
+  background-color: #ffffff;
+  min-height: 300px;
+}
+
+// Section Contact
+.homeContact {
+  background-color: #effffe;
+  min-height: 200px;
+}

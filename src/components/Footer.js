@@ -1,10 +1,12 @@
 import "../styles/footer.scss";
 
-// Header function
+// Footer function
 export default function Footer() {
   return (
     <footer className="footer">
-      <p>FOOTER</p>
+      <p className="footerText">
+        TCHALATE Copyright © 2023 - All Right Reserved
+      </p>
     </footer>
   );
 }

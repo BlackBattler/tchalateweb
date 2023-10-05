@@ -1,11 +1,13 @@
-import "../styles/homePartenaire.scss";
+import "../styles/pageHome.scss";
 
 // Header function
 export default function HomePartenaire() {
   return (
-    <section id="sectionPartenaire" className="homePartenaire">
-      <h2>Partenaire</h2>
-      <p>lorem</p>
+    <section id="sectionPartenaire" className="sectionDisplay homePartenaire">
+      <h2>NOS PARTENAIRES</h2>
+      <div className="divPartenaire">
+        <p className="text">lorem</p>
+      </div>
     </section>
   );
 }
