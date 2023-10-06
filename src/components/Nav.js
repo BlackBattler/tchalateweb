@@ -12,13 +12,13 @@ export default function Nav() {
           <Link to="/">ACCUEIL</Link>
         </li>
         <li>
-          <a href="#sectionExpertise">Expertise</a>
+          <a href="#sectionExpertise">EXPERTISE</a>
         </li>
         <li>
-          <a href="#sectionPartenaire">Partenaire</a>
+          <a href="#sectionPartenaire">PARTENAIRE</a>
         </li>
         <li>
-          <a href="#sectionContact">Contact</a>
+          <a href="#sectionContact">CONTACT</a>
         </li>
       </ul>
     </nav>

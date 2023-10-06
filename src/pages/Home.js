@@ -3,9 +3,9 @@ import Footer from "../components/Footer";
 import HomeMain from "../components/HomeMain";
 import HomeExpertise from "../components/HomeExpertise";
 import HomePartenaire from "../components/HomePartenaire";
-import HomeContact from "../components/HomeContact";
+//import HomeContact from "../components/HomeContact";
 
-//Home page
+// Page HOME
 export default function Home() {
   return (
     <div className="Accueil">
@@ -13,7 +13,6 @@ export default function Home() {
       <HomeMain />
       <HomeExpertise />
       <HomePartenaire />
-      <HomeContact />
       <Footer />
     </div>
   );
