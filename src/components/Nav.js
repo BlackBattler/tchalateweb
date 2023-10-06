@@ -1,5 +1,7 @@
 import "../styles/header.scss";
 import { Link } from "react-router-dom";
+//import { useState, useEffect } from "react";
+//import { useLocation } from "react-router-dom";
 
 // Navbar for header
 export default function Nav() {
