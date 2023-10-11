@@ -29,7 +29,7 @@ export default function Nav() {
           </>
         )}
         <li>
-          <Link to="/Contact">CONTACT</Link>
+          <a href="#sectionContact">CONTACT</a>
         </li>
       </ul>
     </nav>
