@@ -1,9 +1,9 @@
-import "../styles/pageHome.scss";
+import "../../styles/pageHome.scss";
 
 // Header function
-export default function HomeMain() {
+export default function QuiSommesNous() {
   return (
-    <main id="sectionMain" className="sectionDisplay homeMain">
+    <main id="sectionMain" className="sectionDisplay quiSommesNous">
       <h1>QUI SOMMES-NOUS ?</h1>
       <div className="divIntro">
         <p className="text">

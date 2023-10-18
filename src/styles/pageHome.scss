@@ -11,7 +11,7 @@
 
 h1 {
   font-size: 28px;
-  padding-bottom: 20px;
+  padding-bottom: 30px;
 }
 h2 {
   font-size: 26px;
@@ -23,21 +23,21 @@ h2 {
 }
 
 // Section Introduction
-.homeMain {
+.quiSommesNous {
   background-color: #ffffff;
-  padding-top: 180px;
-  min-height: 300px;
+  padding: 180px 0 70px;
+  min-height: 400px;
 }
 
 // Section Expertise
-.homeExpertise {
+.nosExpertise {
   background-color: #effffe;
   min-height: 400px;
-  padding-top: 20px;
+  padding: 70px 0;
 }
 
 // Section Partenaire
-.homePartenaire {
+.nosPartenaire {
   background-color: #ffffff;
   min-height: 300px;
 }
