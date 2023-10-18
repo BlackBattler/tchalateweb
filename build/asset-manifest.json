@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/blackbattler.github.io/static/css/main.609fd958.css",
-    "main.js": "/blackbattler.github.io/static/js/main.a04883af.js",
-    "static/media/logoTchalate.jpg": "/blackbattler.github.io/static/media/logoTchalate.9ee4a3ae8f29e83a7a59.jpg",
-    "index.html": "/blackbattler.github.io/index.html",
-    "main.609fd958.css.map": "/blackbattler.github.io/static/css/main.609fd958.css.map",
-    "main.a04883af.js.map": "/blackbattler.github.io/static/js/main.a04883af.js.map"
+    "main.css": "./static/css/main.609fd958.css",
+    "main.js": "./static/js/main.ad247bcc.js",
+    "static/media/logoTchalate.jpg": "./static/media/logoTchalate.9ee4a3ae8f29e83a7a59.jpg",
+    "index.html": "./index.html",
+    "main.609fd958.css.map": "./static/css/main.609fd958.css.map",
+    "main.ad247bcc.js.map": "./static/js/main.ad247bcc.js.map"
   },
   "entrypoints": [
     "static/css/main.609fd958.css",
-    "static/js/main.a04883af.js"
+    "static/js/main.ad247bcc.js"
   ]
 }

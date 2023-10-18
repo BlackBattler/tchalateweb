@@ -1,0 +1,29 @@
+@import "./main.scss";
+
+.sectionMention {
+  background-color: #effffe;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding-top: 140px;
+  h1 {
+    font-size: 40px;
+    padding-bottom: 30px;
+  }
+  ul {
+    padding: 40px 90px;
+    li {
+      padding-bottom: 50px;
+      h2 {
+        font-size: 35px;
+        padding-bottom: 10px;
+      }
+      p {
+        font-size: 25px;
+        padding-bottom: 10px;
+      }
+    }
+  }
+}
