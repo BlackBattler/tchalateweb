@@ -6,7 +6,7 @@ export default function HomePartenaire() {
     <section id="sectionPartenaire" className="sectionDisplay homePartenaire">
       <h2>NOS PARTENAIRES</h2>
       <div className="divPartenaire">
-        <p className="text">lorem</p>
+        <p className="text">A venir</p>
       </div>
     </section>
   );
