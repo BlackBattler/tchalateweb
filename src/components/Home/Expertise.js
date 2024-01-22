@@ -1,7 +1,7 @@
 import "../../styles/pageHome.scss";
 
 // Header function
-export default function HomeExpertise() {
+export default function Expertise() {
   return (
     <section id="sectionExpertise" className="sectionDisplay nosExpertise">
       <h2>NOS EXPERTISES</h2>

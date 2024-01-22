@@ -5,16 +5,16 @@
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  background-color: #1c1c1c;
-  height: 100px;
-  color: white;
+  background-color: $backgroundcolor-primary;
+  height: 150px;
+  color: $textcolor-primary;
 
   &_copyright {
     font-size: 20px;
   }
   &_mention {
     font-size: 20px;
-    color: pink;
+    color: $linkcolor;
   }
 
   &_contactTitre {
@@ -27,6 +27,6 @@
   }
   &_email {
     font-size: 16px;
-    color: pink;
+    color: $linkcolor;
   }
 }

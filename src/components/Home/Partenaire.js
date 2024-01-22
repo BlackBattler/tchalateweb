@@ -1,7 +1,7 @@
 import "../../styles/pageHome.scss";
 
 // Header function
-export default function NosPartenaire() {
+export default function Partenaire() {
   return (
     <section id="sectionPartenaire" className="sectionDisplay nosPartenaire">
       <h2>NOS PARTENAIRES</h2>
