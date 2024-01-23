@@ -1,11 +1,11 @@
 import "../../styles/pageHome.scss";
-import imgElecInfo from "../../img/elecinfo_1920.jpg";
+import ImgBanniere from "../../img/elecinfo_1920.jpg";
 
 // Header function
 export default function QuiSommesNous() {
   return (
     <main id="sectionMain" className="sectionDisplay quiSommesNous">
-      <image src={imgElecInfo} alt="image intelligence artificiel" />
+      <img src={ImgBanniere} alt="intelligence artificiel" />
       <h1>QUI SOMMES-NOUS ?</h1>
       <div className="divIntro">
         <p className="text">
