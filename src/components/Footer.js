@@ -7,7 +7,7 @@ export default function Footer() {
     <footer className="footer">
       <div>
         <p className="footer_copyright">
-          Copyright © 2023 Tchalate SAS - Tous Droits Réservés -
+          Copyright©Tchalate SAS - Tous Droits Réservés -
           <Link to="/MentionLegale" className="footer_mention">
             {" "}
             Mentions Légales
@@ -18,6 +18,9 @@ export default function Footer() {
       <div id="sectionContact">
         <p className="footer_contactTitre">CONTACT</p>
         <ul>
+          <li>
+            <p>Lundi - Vendredi : 08H00 - 17H00</p>
+          </li>
           <li>
             <p className="footer_telephone">Tel : 07 81 86 01 49</p>
           </li>
