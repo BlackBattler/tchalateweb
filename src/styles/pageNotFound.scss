@@ -4,7 +4,7 @@
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  background-color: $backgroundcolor-primary;
+  background-color: $backgroundColor-primary;
 }
 
 .notFound {
@@ -12,7 +12,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  color: $warningcolor;
+  color: $warningColor;
   padding: 180px 0px 400px;
   &_error {
     font-weight: 700;
@@ -36,7 +36,7 @@
     font-weight: 500;
     font-size: 28px;
     margin-top: 200px;
-    color: $linkcolor;
+    color: $linkColor;
     &:hover {
       transition: all 0.2s ease-in-out;
       transform: scale(1.1);

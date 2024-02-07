@@ -4,9 +4,10 @@
 .sectionDisplay {
   display: flex;
   flex-direction: column;
+  align-items: center;
   justify-content: center;
   padding-bottom: 20px;
-  color: $textcolor-primary;
+  color: $textColor-primary;
 
   img {
     height: 150px;
@@ -17,42 +18,89 @@
 }
 
 h1 {
-  font-size: 28px;
-  padding-bottom: 30px;
+  font-size: 50px;
+  padding-bottom: 100px;
+  max-width: 1200px;
   text-align: center;
+  .textLogo {
+    color: $textLogoColor;
+  }
+  .textGradient {
+    background: linear-gradient(to right, #4cddc5, #2145d9);
+    -webkit-background-clip: text;
+    color: transparent;
+    display: inline-block;
+  }
 }
+
 h2 {
-  font-size: 26px;
+  font-size: 30px;
   padding-bottom: 20px;
+}
+
+.textIntro {
+  font-size: 26px;
+  max-width: 1200px;
+  padding-bottom: 70px;
   text-align: center;
 }
-.text {
-  font-size: 20px;
-  padding: 0 100px 30px;
+
+.textExpertise {
+  font-size: 22px;
 }
 
 // Section Introduction
-.quiSommesNous {
-  background-color: $backgroundcolor-secondary;
+.introduction {
+  background-image: linear-gradient(
+    to bottom,
+    #102c27,
+    #001f3f,
+    $backgroundColor-secondary
+  );
   padding: 140px 0 70px;
   min-height: 400px;
 }
 
 // Section Expertise
 .nosExpertise {
-  background-color: $backgroundcolor-secondary;
+  background-color: $backgroundColor-secondary;
   min-height: 400px;
-  padding: 70px 0;
+  gap: 40px;
+  .articleExpertise {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1000px;
+    height: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    gap: 20px;
+    .divText {
+      flex: 1;
+    }
+
+    .divImage {
+      flex: 1;
+    }
+  }
+  .reverseArticle {
+    flex-direction: row-reverse;
+  }
 }
 
 // Section Partenaire
 .nosPartenaire {
-  background-color: $backgroundcolor-secondary;
+  background-image: linear-gradient(
+    to bottom,
+    $backgroundColor-secondary,
+    #001f3f
+  );
   min-height: 300px;
 }
 
 // Section Contact
 .homeContact {
-  background-color: $backgroundcolor-secondary;
+  background-color: $backgroundColor-secondary;
   min-height: 200px;
 }

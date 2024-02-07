@@ -2,23 +2,23 @@ import "../../styles/pageHome.scss";
 import ImgBanniere from "../../img/elecinfo_1920.jpg";
 
 // Header function
-export default function QuiSommesNous() {
+export default function Introduction() {
   return (
-    <main id="sectionMain" className="sectionDisplay quiSommesNous">
+    <main id="sectionMain" className="sectionDisplay introduction">
       <img src={ImgBanniere} alt="intelligence artificiel" />
-      <h1>QUI SOMMES-NOUS ?</h1>
       <div className="divIntro">
-        <p className="text">
-          Tchalate est un bureau d'étude spécialisé dans le développement
-          informatique et électronique.
-        </p>
-        <p className="text">
+        <h1>
+          <span className="textLogo">TCHALATE</span> est un bureau d'étude
+          spécialisé dans le développement{" "}
+          <span className="textGradient">informatique et électronique.</span>
+        </h1>
+        <p className="textIntro">
           Notre mission est de proposer à nos clients des solutions de pointe
           répondant à leurs besoins spécifiques et à des prix compétitifs tout
           en créant un environnement de travail dynamique et stimulant pour les
           jeunes talents fraîchement diplômés en informatique et électronique.
         </p>
-        <p className="text">
+        <p className="textIntro">
           Nous nous efforçons de les aider à développer leurs compétences
           techniques, à acquérir une expérience pratique et à se préparer pour
           une carrière réussie dans le secteur de la technologie.

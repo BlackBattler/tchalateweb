@@ -5,9 +5,9 @@
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  background-color: $backgroundcolor-primary;
+  background-color: $backgroundColor-primary;
   height: 150px;
-  color: $textcolor-primary;
+  color: $textColor-primary;
 
   li {
     font-size: 16px;
@@ -19,7 +19,7 @@
   }
   &_mention {
     font-size: 20px;
-    color: $linkcolor;
+    color: $linkColor;
   }
 
   &_contactTitre {
@@ -28,6 +28,6 @@
   }
 
   &_email {
-    color: $linkcolor;
+    color: $linkColor;
   }
 }
