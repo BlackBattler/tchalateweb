@@ -40,7 +40,7 @@ export default function Expertise() {
       </article>
       <article className="articleExpertise reverseArticle">
         <div className="divText">
-          <h2>Collaboratione</h2>
+          <h2>Collaboration</h2>
           <p className="textExpertise">
             Le travail d'équipe est au cœur de notre entreprise. Nous
             encourageons la collaboration entre les salariés.
