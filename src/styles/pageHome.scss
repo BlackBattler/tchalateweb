@@ -27,6 +27,7 @@ h1 {
   }
   .textGradient {
     background: linear-gradient(to right, #4cddc5, #2145d9);
+    background-clip: border-box;
     -webkit-background-clip: text;
     color: transparent;
     display: inline-block;
