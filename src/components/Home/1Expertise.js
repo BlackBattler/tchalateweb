@@ -1,4 +1,9 @@
 import "../../styles/pageHome.scss";
+import ImgGestion from "../../img/gestion_projet.jpg";
+import ImgElectronique from "../../img/electronic.jpg";
+import ImgInformatique from "../../img/informatique.png";
+import ImgCollaboration from "../../img/collaboration.png";
+import ImgQualite from "../../img/qualite.png";
 
 // Header function
 export default function Expertise() {
@@ -13,7 +18,9 @@ export default function Expertise() {
             produit - cout.
           </p>
         </div>
-        <div className="divImage"></div>
+        <div className="divImage">
+          <img src={ImgGestion} alt="pictogramme gestion projet" />
+        </div>
       </article>
       <article className="articleExpertise reverseArticle">
         <div className="divText">
@@ -23,7 +30,9 @@ export default function Expertise() {
             correspondant aux cahier des charges précédemment établi.
           </p>
         </div>
-        <div className="divImage"></div>
+        <div className="divImage">
+          <img src={ImgElectronique} alt="pictogramme electronique" />
+        </div>
       </article>
       <article className="articleExpertise">
         <div className="divText">
@@ -36,7 +45,9 @@ export default function Expertise() {
             besoins spécifiques.
           </p>
         </div>
-        <div className="divImage"></div>
+        <div className="divImage">
+          <img src={ImgInformatique} alt="ligne de code informatique" />
+        </div>
       </article>
       <article className="articleExpertise reverseArticle">
         <div className="divText">
@@ -46,7 +57,9 @@ export default function Expertise() {
             encourageons la collaboration entre les salariés.
           </p>
         </div>
-        <div className="divImage"></div>
+        <div className="divImage">
+          <img src={ImgCollaboration} alt="3 personnes travaillent en équipe" />
+        </div>
       </article>
       <article className="articleExpertise">
         <div className="divText">
@@ -56,7 +69,9 @@ export default function Expertise() {
             plus haute qualité.
           </p>
         </div>
-        <div className="divImage"></div>
+        <div className="divImage">
+          <img src={ImgQualite} alt="tampon qualité" />
+        </div>
       </article>
     </section>
   );

@@ -5,7 +5,9 @@ import ImgBanniere from "../../img/elecinfo_1920.jpg";
 export default function Introduction() {
   return (
     <main id="sectionMain" className="sectionDisplay introduction">
-      <img src={ImgBanniere} alt="intelligence artificiel" />
+      <div>
+        <img src={ImgBanniere} alt="intelligence artificiel" />
+      </div>
       <div className="divIntro">
         <h1>
           <span className="textLogo">TCHALATE</span> est un bureau d'étude
