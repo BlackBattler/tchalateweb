@@ -7,7 +7,7 @@ export default function Footer() {
     <footer className="footer">
       <div>
         <p className="footer_copyright">
-          Copyright©Tchalate SAS - Tous Droits Réservés -
+          Copyright© Tchalate SAS - Tous Droits Réservés -
           <Link to="/MentionLegale" className="footer_mention">
             {" "}
             Mentions Légales
