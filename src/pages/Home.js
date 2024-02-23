@@ -1,9 +1,8 @@
 import Header from "../components/Header";
 import Footer from "../components/Footer";
-import Introduction from "../components/Home/0Introduction";
-import Expertise from "../components/Home/1Expertise";
-import Partenaire from "../components/Home/2Partenaire";
-//import HomeContact from "../components/HomeContact";
+import Introduction from "../components/Home/1Introduction";
+import Expertise from "../components/Home/2Expertise";
+import Partenaire from "../components/Home/3Partenaire";
 
 // Page HOME
 export default function Home() {
