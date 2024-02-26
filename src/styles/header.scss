@@ -60,6 +60,9 @@
   justify-content: center;
   gap: 3px;
   p {
+    display: flex;
+    justify-content: right;
+    gap: 5px;
     font-size: 20px;
     color: $textColor-primary;
   }

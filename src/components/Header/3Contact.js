@@ -12,19 +12,18 @@ export default function HeaderContact() {
   return (
     <div className="divContact">
       <p>
-        <FontAwesomeIcon icon={faCalendar} /> Lundi - Vendredi
+        Lundi - Vendredi <FontAwesomeIcon icon={faCalendar} />
       </p>
       <p>
-        <FontAwesomeIcon icon={faClock} /> 08:00 - 17:00
+        08:00 - 17:00
+        <FontAwesomeIcon icon={faClock} />
       </p>
       <p>
-        <FontAwesomeIcon icon={faMobileScreenButton} /> 07 81 86 01 49
+        07 81 86 01 49 <FontAwesomeIcon icon={faMobileScreenButton} />
       </p>
       <p>
-        <FontAwesomeIcon icon={faEnvelope} />{" "}
-        <a href="mailto:coquin.jean-michel@tchalate.com">
-          coquin.jean-michel@tchalate.com
-        </a>
+        <a href="mailto:coquin.jean-michel@tchalate.com">Nous contacter</a>
+        <FontAwesomeIcon icon={faEnvelope} />
       </p>
     </div>
   );
