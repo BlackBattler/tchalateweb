@@ -1,7 +1,5 @@
 import "../../styles/header.scss";
 import { Link, useLocation } from "react-router-dom";
-//import { useState, useEffect } from "react";
-//import { useLocation } from "react-router-dom";
 
 // Navbar for header
 function isHomePage(pathname) {

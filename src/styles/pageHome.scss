@@ -59,7 +59,7 @@ h2 {
     #001f3f,
     $backgroundColor-secondary
   );
-  padding: 140px 0 70px;
+  padding: 50px 0 70px;
   min-height: 400px;
 }
 
@@ -68,6 +68,7 @@ h2 {
   background-color: $backgroundColor-secondary;
   min-height: 400px;
   gap: 40px;
+  padding: 50px 0;
   .articleExpertise {
     display: flex;
     flex-direction: row;
@@ -106,10 +107,5 @@ h2 {
     #001f3f
   );
   min-height: 300px;
-}
-
-// Section Contact
-.homeContact {
-  background-color: $backgroundColor-secondary;
-  min-height: 200px;
+  padding: 50px 0;
 }

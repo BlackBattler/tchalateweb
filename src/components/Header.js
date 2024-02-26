@@ -1,6 +1,7 @@
 import "../styles/header.scss";
-import Logo from "./Logo";
-import Nav from "./Nav";
+import Logo from "./Header/1Logo";
+import Nav from "./Header/2Nav";
+import Contact from "./Header/3Contact";
 
 // Header function
 export default function Header() {
@@ -8,6 +9,7 @@ export default function Header() {
     <header className="header">
       <Logo />
       <Nav />
+      <Contact />
     </header>
   );
 }
